@@ -1,0 +1,66 @@
+#caja{
+    display: grid;
+    grid-template-columns:16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    
+
+}
+
+#borde{
+  border-style:  double; 
+  border-color: black;
+  
+  
+  
+}
+
+#letra{
+    grid-column: 1;
+}
+
+#cajaAzul{
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-column-start: 2;
+
+  grid-row-start: 2;
+  grid-row-end: end;
+  background-color: rgb(74, 124, 199);
+     
+  
+    
+}
+
+#cajaRoja{
+    display: grid;
+
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 2;
+
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    
+    background-color: rgb(179, 83, 83);  
+}
+
+#cajamarilla{
+
+  display: grid;
+
+  grid-row-start: 3;
+  grid-row-end: end;
+  grid-column-start: 3;
+  grid-column-end:  7;
+
+  grid-template-columns:25% 25% 25% 25%;
+  grid-template-rows:33% 33% 34%;
+  background-color: rgb(196, 196, 85);
+    
+ 
+    
+}
