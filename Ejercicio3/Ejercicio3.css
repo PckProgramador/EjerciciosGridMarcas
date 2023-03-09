@@ -1,0 +1,96 @@
+#cajaAbuelo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cajapadre{
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 450px;
+    width: 100%;
+}
+#cajapadre2{
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    background-color: grey;
+    height: 450px;
+    width: 1200px;
+    width: 100%;
+}
+#caja1azul{
+    display: flex;
+    border: black;
+    border-width:1px;
+    border-style: solid;
+    background-color: aquamarine;
+    height: 120px;
+    width: 300px;
+    
+    
+    
+    
+
+}
+
+
+#caja2azul{
+    display: flex;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: aquamarine;
+    height: 120px;
+    width: 300px;
+    
+    
+    
+
+}
+#caja3azul{
+    display: flex;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: aquamarine;
+    height: 120px;
+    width: 300px;
+    
+    
+    
+    
+
+}
+
+#cajanaranja{
+    
+    border: black;
+    border-width:1px;
+    border-style: solid;
+    background-color: rgb(238, 175, 65);
+    height: 50px;
+    width: 300px;
+    
+    
+    
+    
+
+}
+#imagen{
+    height: 120px;
+    width: 450px; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
