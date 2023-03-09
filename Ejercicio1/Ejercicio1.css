@@ -1,0 +1,34 @@
+#caja{
+   display: flex;
+   flex-direction: row; 
+   flex-wrap: wrap;
+   
+   width:1250px;
+   
+}
+#roja{
+    background-color: red;
+    width: 1200px;
+    height: 150px;
+
+}
+#rosa{
+    background-color: pink;
+    width: 400px;
+    height: 300px;
+}
+
+#azul{
+    background-color: aqua;
+    width: 400px;
+}
+#morado{
+    background-color: blueviolet;
+    width: 400px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
